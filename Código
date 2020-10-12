@@ -1,0 +1,7 @@
+num = int(input('Digite um número'))
+i = num
+while i % 11 or i % 13 or i % 17:
+    i += 1
+    if i % 11 == 0 or i % 13 == 0 or i % 17 == 0:
+        print(f'O próximo múltiplo de 11,13 ou 17 é:{i}')
+        break
